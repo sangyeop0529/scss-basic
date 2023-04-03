@@ -1,0 +1,9 @@
+$Dell: 5;
+@while $Dell > 1 {
+  $Dell: $Dell - 1;
+  .content-#{$Dell} {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+}

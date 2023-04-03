@@ -1,0 +1,28 @@
+$md: "screen and (min-width: 390px)";
+$lg: "screen and (min-width: 1280px)";
+
+.card {
+  width: 100px;
+  height: 200px;
+}
+
+.font {
+  font-size: 18px;
+}
+
+@media #{$md} {
+  .card {
+    background-color: red;
+  }
+  .font {
+    font-size: 16px;
+  }
+}
+@media #{$lg} {
+  .card {
+    background-color: blue;
+  }
+  .font {
+    font-size: 18px;
+  }
+}
